@@ -1,0 +1,29 @@
+body{
+	background: #941518;
+}
+
+/*Footer*/
+footer{
+	background: #333333;
+	text-align: center;
+}
+
+ul.redes li
+{
+	display: inline-block;
+}
+
+ul.redes li a
+{
+	color: #941518;
+}
+
+.avatar	
+{
+	border: 5px solid #941518;
+	border-radius: 50%;
+	float: left;
+	height: 100px;
+	width: 100px;
+
+}
