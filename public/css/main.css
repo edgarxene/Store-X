@@ -1,6 +1,13 @@
 body{
 	background: #ffffff;
+	font-family: 'Poiret One', cursive;
 }
+
+h1,h2,h3,h4,h5,h6
+{
+	font-family: 'Lobster Two', cursive;
+}
+
 /*NAV ================================*/
 .main-title{
 	color: #941518 !important;
