@@ -1,6 +1,7 @@
 @extends('store.template')
 
 @section('content')
+@include('store.partials.slider')
 	<!-- Utilizando blade...
 	Ciclo para recorrer el arreglo de productos (Contiene todos los datos extraidos de la tabla).
 	Cada item se llamara $producto.

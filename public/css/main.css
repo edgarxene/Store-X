@@ -35,6 +35,20 @@ ul.redes li a
 	width: 100px;
 }
 
+/*DETALLE DEL PRODUCTO ===========================*/
+.product-block
+{
+	background: #ffffff;
+	border-radius: 1em;
+	padding: 1em;
+}
+
+/*SLIDER ===========================*/
+.navbar
+{
+	margin-bottom: 60;
+}
+
 /*PINTEREST ===========================*/
 #products {
 position: relative;
