@@ -19,7 +19,7 @@
 						<p>
 							<a class="btn btn-warning" href="#"><i class="fa fa-cart-plus"></i>La quiero</a>
 							<a class="btn btn-primary" href="{{route('product-detail',$product->slug)}}"><i class="fa fa-chevron-circle-right"></i>Detalle</a>
-						</p>
+						</p><hr>
 					</div>
 			</div>
 			@endforeach
