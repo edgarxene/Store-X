@@ -8,11 +8,11 @@
 			<h3>Desarrollado por:</h3>
 			<div class="author-info">
 				<img src="http://i.stack.imgur.com/V9dTp.png?s=40&g=1" alt="" class="avatar">
-				<p><a href="">@ergar</a>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, facere. Labore, voluptatem! Totam debitis tenetur, ipsum nihil possimus quidem a repellendus. Consequatur dicta possimus quod culpa. Ratione nostrum praesentium consectetur nihil porro facere, ut, assumenda, voluptatem a, libero voluptates! Tempora.</p>
+				<p><a href="">@ergar</a> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, facere. Labore, voluptatem! Totam debitis tenetur, ipsum nihil possimus quidem a repellendus. Consequatur dicta possimus quod culpa. Ratione nostrum praesentium consectetur nihil porro facere, ut, assumenda, voluptatem a, libero voluptates! Tempora.</p>
 			</div>
 		</div>
 		<div class="col-md-4">
-			<h3>Siguenos</h3>
+			<h3>Siguenos en:</h3>
 			<ul class="redes">
 				<li>
 					<a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
