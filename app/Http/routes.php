@@ -21,7 +21,6 @@ Route::get('product/{slug}', [
 	'uses' => 'StoreController@show'
 	]);
 
-
 /*
 |--------------------------------------------------------------------------
 | Application Routes

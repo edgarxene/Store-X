@@ -8,18 +8,26 @@
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <img src="http://velvetmexicanstreets.com/wp-content/uploads/2012/12/Screen-Shot-2012-12-24-at-10.08.14-AM.png" alt="...">
-      <div class="carousel-caption">
-        SLIDE 1
-      </div>
+  
+      <div class="item active">
+        <img src="{{$itemactive->image}}" alt="...">
+        <div class="carousel-caption">
+        <h3>{{$itemactive->caption}}</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi magni quaerat, quod harum id tenetur blanditiis beatae. Ipsam iste dignissimos, pariatur recusandae! Vero quia, nobis veniam nulla esse, repellat quaerat.</p>
+        </div>
     </div>
-    <div class="item">
-      <img src="http://velvetmexicanstreets.com/wp-content/uploads/2012/12/Screen-Shot-2012-12-24-at-9.54.20-AM.png" alt="...">
+
+    @foreach($items as $key => $item)    
+    @if($key > 0)<!--Saltar el primer item que corresponde al Item Principal-->
+     <div class="item">
+      <img src="{{$item->image}}" alt="...">
       <div class="carousel-caption">
         SLIDE 2
       </div>
     </div>
+    @endif
+    @endforeach
+    
   </div>
 
   <!-- Controls -->
@@ -32,3 +40,4 @@
     <span class="sr-only">Next</span>
   </a>
 </div><hr>
+
