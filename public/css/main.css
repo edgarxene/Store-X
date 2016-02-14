@@ -18,9 +18,9 @@ h1,h2,h3,h4,h5,h6
 
 /*FOOTER ================================*/
 footer{
-	background: #007777;
+	background: #1D1D1D;
 	text-align: center;
-	color: #37c5c5;
+	color: #ffffff;
 }
 
 ul.redes li
@@ -54,6 +54,21 @@ ul.redes li a
 .navbar
 {
 	margin-bottom: 0;
+}
+
+/*CARRITO ===========================*/
+
+.table-cart
+{
+	background: #ffffff;
+	border-radius: 1em;
+	margin-bottom: 30px;
+	padding: 1em;
+}
+
+.table-cart img
+{
+	width: 50px;
 }
 
 /*PINTEREST ===========================*/
