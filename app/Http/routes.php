@@ -12,16 +12,6 @@
 */
 
 
-Route::get('/', [
-	'as' => 'home',
-	'uses' => 'StoreController@index'
-	]);
-
-Route::get('product/{slug}', [
-	'as' => 'product-detail',
-	'uses' => 'StoreController@show'
-	]);
-
 
 
 
@@ -44,6 +34,18 @@ Route::bind('product', function($slug)
 {
 	return App\Product::where('slug', $slug)->first();
 });
+
+Route::get('/', [
+	'as' => 'home',
+	'uses' => 'StoreController@index'
+	]);
+
+Route::get('product/{slug}', [
+	'as' => 'product-detail',
+	'uses' => 'StoreController@show'
+	]);
+
+
 //Carrito ---------------
 Route::get('cart/show', [
 	'as' => 'cart-show',
