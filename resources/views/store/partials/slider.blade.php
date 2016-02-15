@@ -10,7 +10,8 @@
   <div class="carousel-inner" role="listbox">
   
       <div class="item active">
-        <img src="{{$itemactive->image}}" alt="...">
+        <img src="{{asset($itemactive->image)}}" alt="...">
+
         <div class="carousel-caption">
         <h3>{{$itemactive->caption}}</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi magni quaerat, quod harum id tenetur blanditiis beatae. Ipsam iste dignissimos, pariatur recusandae! Vero quia, nobis veniam nulla esse, repellat quaerat.</p>
