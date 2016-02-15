@@ -16,7 +16,7 @@ class SliderTableSeeder extends Seeder
         $data = array(
             [
                 'order'         => '1',
-                'image'         => 'http://media.dcentertainment.com/sites/default/files/images-touts/DC-Slider_20130516_arkhamorigins_v9_uwyo87wyau_.jpg',
+                'image'         => 'images/slider-items/Banner1.jpg',
                 'caption'       => "Slider 1 de prueba",
                 'created_at'    => new DateTime, 
                 'updated_at'    => new DateTime
@@ -24,7 +24,7 @@ class SliderTableSeeder extends Seeder
 
             [
                 'order'         => '2',
-                'image'         => 'http://media.dcentertainment.com/sites/default/files/images-touts/dc-slider_BW_OZY-CC_alt_mr4y1nnajz__ewqik9ht8a_.jpg',
+                'image'         => 'images/slider-items/Banner2.jpg',
                 'caption'       => "Slider 2 de prueba",
                 'created_at'    => new DateTime, 
                 'updated_at'    => new DateTime
